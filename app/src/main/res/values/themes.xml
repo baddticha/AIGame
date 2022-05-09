@@ -12,5 +12,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <!-- This is to display in full screen and set screen orientation-->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:screenOrientation">landscape</item>
     </style>
 </resources>
